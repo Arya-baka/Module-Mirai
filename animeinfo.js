@@ -2,7 +2,7 @@ module.exports.config = {
     name: "animeinfo",
     version: "1.0.0",
     hasPermision: 0,
-    credit: "",
+    credit: "Nguyễn Quang Minh", //fix by Trung Kiên
     description: "như tên module",
     commandCategory: "info",
     usages: "[name anime]",
