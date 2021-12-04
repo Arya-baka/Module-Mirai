@@ -8,5 +8,6 @@
   <p>Contact:</p>
   <a href="https://facebook.com/yotsuba.kawaii.2608" target="_blank"><img src="https://i.postimg.cc/JzY9Vjh0/1024px-Facebook-icon-2013-svg.png" alt="Facebook"/></a>
   <a href="https://instagram.com/mikusosweet" target="_blank"><img scr="https://i.postimg.cc/mDkndk4M/image.png" alt="Instagram"/></a>
+  <a href="https://github.com/yotsuba-co-cute" target="_blank"><img scr="https://i.postimg.cc/Vkpy3X7g/image.png" alt="github"/></a>
 </body>
 </html>
