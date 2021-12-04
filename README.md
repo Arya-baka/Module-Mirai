@@ -6,12 +6,8 @@
   <p>Written by Nguyen Quang Minh<p>
   <img src="https://i.postimg.cc/fRmc7N0K/large.jpg" alt="😎😎😎">
   <p>Contact:</p>
-  <p>Facebook</p>
-  <a href="https://facebook.com/yotsuba.kawaii.2608" target="_blank"><img src="https://i.postimg.cc/JzY9Vjh0/1024px-Facebook-icon-2013-svg.png" alt="Facebook"/></a>
-  <p>Instagram</p>
-  <a href="https://instagram.com/mikusosweet" target="_blank"><img scr="https://i.postimg.cc/mDkndk4M/image.png" alt="Instagram"/></a>
-  <p>Github</p>
-  <a href="https://github.com/yotsuba-co-cute" target="_blank"><img scr="https://i.postimg.cc/Vkpy3X7g/image.png" alt="github"/></a>
+  <a href="https://fb.com/yotsuba.kawaii.2608" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="yotsuba.kawaii.2608" height="30" width="40" /></a>
+<a href="https://instagram.com/mikusosweet" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="mikusosweet" height="30" width="40" /></a>
   <p>Thanks for using my product, Bye !!
 </body>
 </html>
