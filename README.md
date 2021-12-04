@@ -12,5 +12,6 @@
   <a href="https://instagram.com/mikusosweet" target="_blank"><img scr="https://i.postimg.cc/mDkndk4M/image.png" alt="Instagram"/></a>
   <p>Github</p>
   <a href="https://github.com/yotsuba-co-cute" target="_blank"><img scr="https://i.postimg.cc/Vkpy3X7g/image.png" alt="github"/></a>
+  <p>Thanks for using my product, Bye !!
 </body>
 </html>
