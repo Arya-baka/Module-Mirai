@@ -32,7 +32,7 @@ module.exports.run = async function({
         const res = await axios.get(encodeURI(`http://lawerpr0ject.herokuapp.com/other/anime?name=${args[0]}`));
         console.log(res.data);
         let data = res.data;
-        const translate = await axios.get(encodeURI(`https://lawerpr0ject.herokuapp.com/other/translate?text=${data.noidung}`));
+        const translate = await axios.get(encodeURI(`https://lawerpr0ject.herokuapp.com/other/translate?text=${data.noidung}&to=vi`));
         var noidung = translate.data.trans;
         let callback = function() {
             return api.sendMessage({
