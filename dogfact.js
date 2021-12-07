@@ -18,7 +18,7 @@ module.exports.run = async function({api, event, args, utils, Users, Threads}) {
 	const res = await axios.get(`https://some-random-api.ml/animal/dog`);
 	console.log(res.data);
 	var data = res.data;
-	const translate = await axios.get(encodeURI(`https://lawerpr0ject.herokuapp.com/other/translate?text=${data.fact}`));
+	const translate = await axios.get(encodeURI(`https://lawerpr0ject.herokuapp.com/other/translate?text=${data.fact}&to=vi`));
 	var fact = translate.data.trans;
 	let callback = function() {
             return api.sendMessage({
