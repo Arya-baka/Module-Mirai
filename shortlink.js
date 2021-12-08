@@ -1,8 +1,8 @@
 module.exports.config = {
     name: "shortlink",
-    version: "1.0.0",
+    version: "2.0.0",
     hasPermision: 0,
-    credit: "Api LawerBot",
+    credit: "Quang Minh (Api tinyurl LawerBot)",
     description: "rut gon url",
     commandCategory: "info",
     usages: "[url]",
