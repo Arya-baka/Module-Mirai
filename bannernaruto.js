@@ -26,7 +26,7 @@ module.exports.run = async function({
             senderID,
             messageID
         } = event;
-        var type = args.join(" ")
+        var type = args.join("");
         if(!type) {
             api.sendMessage("Vui lòng nhập chữ in lên banner", threadID, messageID)
         }
