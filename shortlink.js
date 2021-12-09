@@ -18,7 +18,7 @@ module.exports.run = async function({ api, event, args, utils, Users,Threads }) 
            const res = await axios.get(encodeURI(`http://lawerpr0ject.herokuapp.com/other/tinyurl?url=${args[0]}`));
            console.log(res.data);
            let data = res.data;
-           return api.sendMessage(`Shorturl: ${res.data.result.link}}`, event.threadID, event.messageID);
+           return api.sendMessage(`Shorturl: ${res.data.result.link}`, event.threadID, event.messageID);
            } 
        }
         catch {
