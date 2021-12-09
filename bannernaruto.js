@@ -26,10 +26,11 @@ module.exports.run = async function({
             senderID,
             messageID
         } = event;
-        if (!args[0]) {
+        var type = args.join(" ")
+        if(!type) {
             api.sendMessage("Vui lòng nhập chữ in lên banner", threadID, messageID)
         }
-        const res = await axios.get(encodeURI(`http://lawerpr0ject.herokuapp.com/banner/naruto?text=${args.join(" ")}&apikey=lawerteam`));
+        const res = await axios.get(encodeURI(`http://lawerpr0ject.herokuapp.com/banner/naruto?text=${type}&apikey=lawerteam`));
         console.log(res.data);
         let data = res.data;
         let callback = function() {
