@@ -27,7 +27,7 @@ module.exports.run = async function({
             messageID
         } = event;
         if (!args[0]) {
-            api.sendMessage(`${data.error}`, threadID, messageID)
+            api.sendMessage("Vui lòng nhập emoji", threadID, messageID)
         }
         const res = await axios.get(encodeURI(`http://lawerpr0ject.herokuapp.com/other/emoji2png?text=${args[0]}&apikey=lawerteam`));
         console.log(res.data);
