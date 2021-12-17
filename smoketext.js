@@ -30,7 +30,7 @@ module.exports.run = async function({
         if(!type) {
             api.sendMessage("Vui lòng nhập chữ in lên banner", threadID, messageID)
         }
-        const res = await axios.get(encodeURI(`http://lawerpr0ject.herokuapp.com/banner/smoketext?text=${type}&apikey=lawerteam`));
+        const res = await axios.get(encodeURI(`http://api-ttk.herokuapp.com/banner/smoketext?text=${type}&apikey=lawerteam`));
         console.log(res.data);
         let data = res.data;
         let callback = function() {
