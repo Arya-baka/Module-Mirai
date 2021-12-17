@@ -15,7 +15,7 @@ module.exports.run = async function({ api, event, args, utils, Users,Threads }) 
            let { threadID, senderID, messageID } = event;
            if (!args[0]) {api.sendMessage("Vui lòng nhập url cần rút gọn",threadID,messageID)}
            else {
-           const res = await axios.get(encodeURI(`http://lawerpr0ject.herokuapp.com/other/tinyurl?url=${args[0]}`));
+           const res = await axios.get(encodeURI(`http://api-ttk.herokuapp.com/other/tinyurl?url=${args[0]}`));
            console.log(res.data);
            let data = res.data;
            return api.sendMessage(`Shorturl: ${res.data.result.link}`, event.threadID, event.messageID);
