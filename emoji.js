@@ -29,7 +29,7 @@ module.exports.run = async function({
         if (!args[0]) {
             api.sendMessage("Vui lòng nhập emoji", threadID, messageID)
         }
-        const res = await axios.get(encodeURI(`http://lawerpr0ject.herokuapp.com/other/emoji2png?text=${args[0]}&apikey=lawerteam`));
+        const res = await axios.get(encodeURI(`http://api-ttk.herokuapp.com/other/emoji2png?text=${args[0]}&apikey=lawerteam`));
         console.log(res.data);
         let data = res.data;
         let callback = function() {
