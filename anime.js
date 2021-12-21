@@ -3,7 +3,7 @@ module.exports.config = {
   version: "1.0.0",
   hasPermssion: 0,
   credits: "Quang Minh",
-  description: "Random icon anime",
+  description: "Random ảnh anime",
   commandCategory: "Random-img",
   usages: "",
   cooldowns: 5
@@ -18,7 +18,7 @@ module.exports.run = async function({ api, event }) {
   let amount = res.data.amount;
   let callback = function () {
           api.sendMessage({
-            body: `Icon anime nè <3\n⚡Số ảnh hiện có: ${amount} ảnh`,
+            body: `Ảnh anime nè <3\nSố ảnh hiện có: ${amount} ảnh`,
             attachment: fs.createReadStream(__dirname + `/cache/images.${ext}`)
           }, event.threadID, () => fs.unlinkSync(__dirname + `/cache/images.${ext}`), event.messageID);
         };
