@@ -3,7 +3,6 @@
 <html>
 <body>
   <h2>Free Modules cho bot Mirai-v2, xin hãy giữ credit tôn trọng Author</h2>
-  <p>Written by Nguyen Quang Minh<p>
   <img src="https://i.postimg.cc/fRmc7N0K/large.jpg" alt="😎😎😎">
   <p>Contact:</p>
   <a href="https://fb.com/yotsuba.kawaii.2608" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="yotsuba.kawaii.2608" height="30" width="40" /></a>
