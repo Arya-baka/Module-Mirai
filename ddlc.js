@@ -3,7 +3,7 @@ module.exports.config = {
     version: "1.0.0",
     hasPermssion: 0,
     credits: "QMinh",
-    description: "Tạo ảnh bìa",
+    description: "Tạo background theo tựa game Doki Doki Literature Club",
     commandCategory: "Banner",
     usages: "[Character]|[Background]|[Text]",
     cooldowns: 5,
