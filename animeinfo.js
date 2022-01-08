@@ -2,7 +2,7 @@ module.exports.config = {
     name: "animeinfo",
     version: "1.0.0",
     hasPermision: 0,
-    credit: "Trung Kiên",
+    credit: "",
     description: "như tên module",
     commandCategory: "info",
     usages: "[name anime]",
@@ -32,9 +32,11 @@ module.exports.run = async function({
         const res = await axios.get(encodeURI(`http://api-ttk.herokuapp.com/other/anime?name=${args[0]}`));
         console.log(res.data);
         let data = res.data;
+        const translate = await axios.get(encodeURI(`https://api-ttk.herokuapp.com/other/translate?text=${data.noidung}&to=vi`));
+        var noidung = translate.data.translated;
         let callback = function() {
             return api.sendMessage({
-                body: `Tên phim: ${data.title}\nurl: ${data.url}\nNội dung phim: ${data.noidung}\nXếp hạng: 🏆${data.xephang}\nSố tập: ${data.episodes}\nAuthor: ${data.Author}`,
+                body: `Tên phim: ${data.title}\nurl: ${data.url}\nNội dung phim: ${noidung}\nXếp hạng: 🏆${data.xephang}\nSố tập: ${data.episodes}\nAuthor: ${data.Author}`,
                 attachment: fs.createReadStream(__dirname + `/cache/anime.png`)
             }, event.threadID, () => fs.unlinkSync(__dirname + `/cache/anime.png`), event.messageID);
         };
